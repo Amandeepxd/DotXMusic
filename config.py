@@ -21,12 +21,14 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Amandeepxd/DotXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://graph.org/file/caa603da136eaf6ea7239.mp4")
+
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WALTER_X_HUB")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/WALTER_X_HUB")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,7 +78,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/56d1760224589ee370186.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/4ba4ebbf636888c1cb9f2.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
